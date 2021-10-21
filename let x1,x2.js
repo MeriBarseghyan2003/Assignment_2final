@@ -2,7 +2,7 @@ let x,x1,x2
 let a=1
 let b=2
 let c=3
-let discriminant = (b**2-4*a*c) ; 
+const discriminant = (b**2-4*a*c) ; 
 
 if(a === 0)
 {

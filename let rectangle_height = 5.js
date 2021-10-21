@@ -1,10 +1,10 @@
 let rectangle_height = 5
 let rectangle_length = 6
-let rectangle_area = (rectangle_height * rectangle_length);
+const rectangle_area = (rectangle_height * rectangle_length);
 
 let triangle_base = 3
 let triangle_height = 7
-let triangle_area = (triangle_height * triangle_base)/2;
+const triangle_area = (triangle_height * triangle_base)/2;
 
  if (rectangle_area > triangle_area) {
 
