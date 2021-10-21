@@ -17,9 +17,9 @@ else
         x2 = ((-b)- Math.sqrt(discriminant))/(2*a);
         console.log("the results are : " + (x1) + ", " + (x2));
     }
-    else if(discriminant = 0)
+    else if(discriminant === 0)
     {
-        x === (-b)/(2*a);
+        x = (-b)/(2*a);
         console.log("the result is : " +x);
     }
     else if(discriminant < 0)
